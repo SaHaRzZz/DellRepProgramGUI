@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgramController">
+   <center>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dear user, please identify yourself." BorderPane.alignment="CENTER" />
+   </center>
+   <left>
+      <TextField fx:id="getUsername" alignment="CENTER" onAction="#setUsernameAction" promptText="Username" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <PasswordField fx:id="getPassword" alignment="CENTER" onAction="#setPasswordAction" promptText="Password" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

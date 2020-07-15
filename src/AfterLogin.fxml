@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ProgramController">
+   <center>
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Loading..." textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="83.0" />
+         </font></Text>
+   </center>
+</BorderPane>
